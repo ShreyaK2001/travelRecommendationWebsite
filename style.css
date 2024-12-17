@@ -4,16 +4,16 @@
     box-sizing: border-box;
 }
 body{
-    height:100%;
+    height:550px;
     width: 100%;
-    background-image: url("travel-bg.jpg");
+    background-image: linear-gradient(to right, rgba(29, 84, 104, 0.9), rgba(244, 242, 242,.20)), url("travel-bg.jpg");
     background-repeat:no-repeat;
     background-size: cover;
 }
 #navbar{
     display:flex;
     justify-content:space-between;
-    background-color: rgb(7, 82, 109);
+    background-color: rgb(6, 46, 61);
     width:1280px;
     padding:10px;
 }
@@ -42,7 +42,6 @@ li{
     background-color: white;
     border-radius: 30px;
     height:55px;
-    width:180px;
 }
 #nav3 input{
     width:200px;
@@ -61,7 +60,61 @@ li{
     padding:10px;
     background-color: white;
     border-style: none;
+    border-radius: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     color:rgb(4, 81, 116);
+}
+#container{
+    display:inline-flex;
+}
+#line{
+    height:180px;
+    width:4px;
+    background-color: white;
+    margin: 25px;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 40px;
+}
+#heading{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    width:120px;
+    margin:20px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+#intro{
+    color:white;
+    width:400px;
+    height:200px;
+    margin-top: 250px;
+    margin-left: -140px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#stags{
+    width:50px;
+    height:150;
+    margin-left: -117px;
+    margin-top: -60px;
+}
+#stags img{
+    width:30px;
+    height:30px;
+    margin:7px;
+}
+#bbutton{
+    margin-top: -90px;
+}
+#bbutton button{
+    color:white;
+    background-color: rgba(17, 120, 129, 0.95);
+    width:120px;
+    height:50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(20, 128, 150);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
 }

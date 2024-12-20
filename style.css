@@ -65,6 +65,12 @@ li{
     font-size: 17px;
     color:rgb(4, 81, 116);
 }
+#nav3 button:hover{
+    background-color: rgb(0, 128, 117);
+    border-style: none;
+    color:white;
+    cursor: pointer;
+}
 #container{
     display:inline-flex;
 }

@@ -1,8 +1,8 @@
 
-const searchBtn = document.getElementById('search');
-const clearBtn = document.getElementById('clear');
-const keyword = document.getElementById('searchBar').value.toLowerCase();
-const overlay = document.getElementById('rec');
+const searchBtn = document.getElementById("search");
+const clearBtn = document.getElementById("clear");
+const keyword = document.getElementById("searchBar").value.toLowerCase();
+const overlay = document.getElementById("rec");
 let recommendations = [];
 let results =[];
 

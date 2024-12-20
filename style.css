@@ -129,14 +129,19 @@ li{
 }
 #rec{
     margin:20px auto;
-    max-width: 800px;
-    border:1px solid #ddd;
+    width: 400px;
+    /*border:1px solid #ddd;*/
     border-radius: 8px;
-    background-color: #f9f9f9;
+   /* background-color: #f9f9f9;*/
     padding:20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     overflow-y: auto;
     max-height: 500px;
+    margin-left: 700px;
+    margin-top: -400px;
+}
+#rec::-webkit-scrollbar{
+    display: none;
 }
 .result-card{
     border:1px solid #ccc;

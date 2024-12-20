@@ -3,7 +3,6 @@ const searchBtn = document.getElementById("search");
 const clearBtn = document.getElementById("clear");
 const overlay = document.getElementById("rec");
 let recommendations = [];
-let results =[];
 
 searchBtn.addEventListener("click", fetchResults);
 clearBtn.addEventListener("click", clearResults);
@@ -82,5 +81,5 @@ function displayResults(results){
 function clearResults(){
     document.getElementById('searchBar').value = "";
     document.getElementById('rec').innerHTML = "";
-    document.getElementById('rec').style.display= "none";
+    document.getElementById('rec').style.display = "none";
 }

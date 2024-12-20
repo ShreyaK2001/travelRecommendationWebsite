@@ -124,3 +124,57 @@ li{
     border: 1px solid rgb(20, 128, 150);
     box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
 }
+.hidden{
+    display:none;
+}
+#rec{
+    margin:20px auto;
+    max-width: 800px;
+    border:1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    padding:20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow-y: auto;
+    max-height: 500px;
+}
+.result-card{
+    border:1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    padding:15px;
+    margin-bottom:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.result-card img{
+    max-width: 100%;
+    height:auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.result-card h2{
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+.result-card p{
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+.result-card button{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.result-card button:hover {
+    background-color: #0056b3;
+}
